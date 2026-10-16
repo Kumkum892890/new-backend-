@@ -2,6 +2,8 @@
   "name": "new-backened",
   "version": "1.0.0",
   "description": "a backened with new knowledge",
+  "type": "commonjs",
+  "main": "index.js",
   "keywords": [
     "javascript",
     "backened",
@@ -13,9 +15,11 @@
   },
   "license": "ISC",
   "author": "kumkum tiwari",
-  "type": "commonjs",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }

@@ -4,11 +4,7 @@ import {DB_NAME} from "../constants.js";
 
 
 
-
-
-
-
-/*import express from "express";
+import express from "express";
 const app = express()
 
 (async () =>{
@@ -25,4 +21,4 @@ const app = express()
      console.log("ERROR :" , error)
      throw err        
     }
-})()*/
+})()

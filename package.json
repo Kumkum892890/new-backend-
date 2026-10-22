@@ -17,7 +17,7 @@
   "author": "kumkum tiwari",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon -r dotenv/config --expermental-json-modules src/index.js"
+    "dev": "nodemon -r dotenv/config src/index.js"
   },
   "devDependencies": {
     "nodemon": "^3.1.14",

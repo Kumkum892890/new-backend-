@@ -4,6 +4,7 @@
   "description": "a backened with new knowledge",
   "type": "commonjs",
   "main": "index.js",
+  "type" :"module",
   "keywords": [
     "javascript",
     "backened",

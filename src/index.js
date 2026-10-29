@@ -1,8 +1,5 @@
-import dotnv from "dotenv";
-import mongoose, { connect } from "mongoose";
-import {DB_NAME} from "./constants.js";
-import app from "./app.js";
-
+import dotenv from "dotenv";
+import connectDB from "./db/index.js";
 
 
 dotenv.config({
@@ -33,8 +30,10 @@ connectDB()
 
 
 // import express from "express";
-import connectDB from "./db/index.js";
-
+import mongoose, { connect } from "mongoose";
+import {DB_NAME} from "./constants.js";
+import app from "./app.js";
+i
 // (async () =>{
 //     try {
 //       console.log(
